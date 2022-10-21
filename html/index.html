@@ -48,21 +48,26 @@
                     <!--Links-->
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home" style="color:white">Home
+                            <a class="nav-link" href="#home" style="color:white"><button type="button"
+                                    class="btn btn-primary" style="border-radius: 5rem;">Home</button>
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#about" data-offset="100"></a>
-                        </li> -->
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#About us" data-offset="100" style="color:white">About us </a>
+                            <a class="nav-link" href="#About us" data-offset="100" style="color:white"><button
+                                    type="button" class="btn btn-primary" style="border-radius: 5rem;">About us
+                                </button></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Products" data-offset="100" style="color:white">Products</a>
+                            <a class="nav-link" href="#Products" data-offset="100" style="color:white"><button
+                                    type="button" class="btn btn-primary" style="border-radius: 5rem;">Products
+                                </button></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Contact Us" data-offset="100" style="color:white">Contact Us</a>
+                            <a class="nav-link" href="#Contact Us" data-offset="100" style="color:white"><button
+                                    type="button" class="btn btn-primary" style="border-radius: 5rem;">Contact us
+                                </button></a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#testimonials" data-offset="100">Opinions</a>
@@ -868,8 +873,8 @@
 
         <!--Copyright-->
         <div class="footer-copyright py-3 text-center" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                © 2022 Copyright: <a href="https://abhishekgawade.devfolio.io/" target="_blank">Kiran Enterprises </a>
+            <div class="container-fluid" id="year">
+                <a href="" target="_blank"> </a>
             </div>
         </div>
         <!--/Copyright-->
@@ -910,6 +915,9 @@
         $(function () {
             $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
         });
+        let year = "@" + new Date().getFullYear() + " Copyright: Kiran Enterprises";
+        document.getElementById("year").innerHTML = '<a href=https://www.youtube.com/#q=' + year + '>' + year + '</a>';
+
 
     </script>
 
