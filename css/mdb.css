@@ -1522,7 +1522,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
-
+@font-face{
+    font-family:Lucida;
+    src: local(Lucida Handwriting Italic) ,url("/templates-master/MDB-Landing-Page-Templates-Pack_4.8.11/font/lucida/Lucida/Handwriting/Italic.ttf") format("truetype");
+    src:url("/templates-master/MDB-Landing-Page-Templates-Pack_4.8.11/font/lucida/Lucida/Handwriting/Italic.ttf") format("truetype");
+ }
+ h2{
+  font-family:"Lucida Italic" ;
+  font-weight: 200;
+}
 .blockquote {
   padding: 0.5rem 1rem;
   border-left: .25rem solid #eceeef; }
