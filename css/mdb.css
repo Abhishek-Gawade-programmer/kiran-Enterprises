@@ -25,6 +25,10 @@
  * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
  *
  */
+
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+
+                
 .mdb-color.lighten-5 {
   background-color: #d0d6e2 !important; }
 
@@ -1515,20 +1519,25 @@ button.bg-light:focus {
   font-weight: 700;
   src: url("../font/roboto/Roboto-Bold.eot");
   src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype"); }
-
+  
+                                                
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
-@font-face{
-    font-family:Lucida;
-    src: local(Lucida Handwriting Italic) ,url("/templates-master/MDB-Landing-Page-Templates-Pack_4.8.11/font/lucida/Lucida/Handwriting/Italic.ttf") format("truetype");
-    src:url("/templates-master/MDB-Landing-Page-Templates-Pack_4.8.11/font/lucida/Lucida/Handwriting/Italic.ttf") format("truetype");
- }
+#heading{
+    @font-face{
+      font-family: 'Lucida Handwriting Std', sans-serif;
+                                                  
+      src: local(Lucida Handwriting Italic) ,url("https://fonts.cdnfonts.com/css/lucida-handwriting-std")format("truetype");
+      
+  }
+}
+
  h2{
-  font-family:"Lucida Italic" ;
+  font-family: 'Lucida Handwriting Std',!important;;
   font-weight: 200;
 }
 .blockquote {
