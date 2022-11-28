@@ -85,6 +85,15 @@
           margin-top: 5px;
         }
       }
+      @media (max-width: 1200px) and (min-width: 1000px) {
+        #withy {
+          font-size: 0.7rem;
+          width: 118%;
+          margin-left: -4px;
+          /* width: 118%;
+          padding: 9px; */
+        }
+      }
     </style>
   </head>
 
@@ -119,7 +128,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!--Links-->
             <ul class="navbar-nav mr-auto smooth-scroll">
-              <li class="nav-item" style="margin-right: 1rem">
+              <li class="nav-item" id="withyid" style="margin-right: 1rem">
                 <a
                   class="nav-link btn"
                   href="#home"
@@ -160,6 +169,7 @@
               </li>
               <li class="nav-item" style="margin-right: 1rem">
                 <a
+                  id="withy"
                   class="nav-link btn"
                   href="#machines"
                   data-offset="100"
@@ -167,7 +177,7 @@
                     color: whitesmoke;
                     font-weight: bold;
                     border-radius: 5rem;
-                    width: 95%;
+
                     padding: 7px;
                     height: 2rem;
                     background: -webkit-linear-gradient(#152ed4, #5363cc);
