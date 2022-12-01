@@ -1,32 +1,4 @@
 @charset "UTF-8";
-/*!
- * Material Design for Bootstrap 4
- * Version: MDB Landing Page Pack 4.8.11
- *
- *
- * Copyright: Material Design for Bootstrap
- * https://mdbootstrap.com/
- *
- * Read the license: https://mdbootstrap.com/general/license/
- *
- *
- * Documentation: https://mdbootstrap.com/
- *
- * Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
- *
- * Tutorials: https://mdbootstrap.com/education/bootstrap/
- *
- * Templates: https://mdbootstrap.com/templates/
- *
- * Support: https://mdbootstrap.com/support/
- *
- * Contact: office@mdbootstrap.com
- *
- * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
- *
- */
-
-@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
 
                 
 .mdb-color.lighten-5 {
@@ -1525,21 +1497,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
-#heading{
-    @font-face{
-      font-family: 'Lucida Handwriting Std', sans-serif;
-                                                  
-      src: local(Lucida Handwriting Italic) ,url("https://fonts.cdnfonts.com/css/lucida-handwriting-std")format("truetype");
-      
-  }
-}
 
- h2{
-  font-family: 'Lucida Handwriting Std',!important;;
-  font-weight: 200;
-}
 .blockquote {
   padding: 0.5rem 1rem;
   border-left: .25rem solid #eceeef; }
