@@ -31,6 +31,7 @@
 }
 
 .imgIntro{
+  margin-left: 1.2rem;
    width:118%;
    height:100%;
    border:4px solid rgb(114, 114, 114);
@@ -64,7 +65,7 @@ header,
     
   
   }
-  #contact {
+  #condev {
     font-size: 0.7rem;
     width: 130%;
     margin-left: -4px;
