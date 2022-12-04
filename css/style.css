@@ -14,7 +14,9 @@
 #contact{
     margin-left: 0;
 }
-
+#contactli{
+  margin-right:1rem;
+}
 
 #iso{
     color:rgb(255, 255, 255) !important;
@@ -64,6 +66,9 @@ header,
     margin-left: -4px;
     
   
+  }
+  #contactli{
+    margin-right: 2rem;;
   }
   #condev {
     font-size: 0.7rem;
